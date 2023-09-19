@@ -13,10 +13,10 @@ The raw Mass Spec are converted into mzXML format using the 64-bit MSConvert too
 
 **Main Reference**
 
-<a id="1">[1]</a> Reiter, L. et al. mProphet: automated data processing and statistical validation for large-scale SRM experiments. Nature Methods 8, 430-435 (2011).
-<a id="2">[2]</a> Toghi Eshghi, S., Auger, P. & Mathews, W. R. Quality assessment and interference detection in targeted mass spectrometry data using machine learning. Clinical proteomics 15, 1-13 (2018).
-<a id="3">[3]</a> Lundberg, S. M. et al. From local explanations to global understanding with explainable AI for trees. Nature machine intelligence 2, 56-67 (2020).
-<a id="4">[4]</a> Seddiki, K. et al. Cumulative learning enables convolutional neural network representations for small mass spectrometry data classification. Nature Communications 11 (2020).
+<a id="1">[1] Reiter, L. et al. mProphet: automated data processing and statistical validation for large-scale SRM experiments. Nature Methods 8, 430-435 (2011).</a> 
+<a id="2">[2] Toghi Eshghi, S., Auger, P. & Mathews, W. R. Quality assessment and interference detection in targeted mass spectrometry data using machine learning. Clinical proteomics 15, 1-13 (2018).</a> 
+<a id="3">[3] Lundberg, S. M. et al. From local explanations to global understanding with explainable AI for trees. Nature machine intelligence 2, 56-67 (2020).</a> 
+<a id="4">[4] Seddiki, K. et al. Cumulative learning enables convolutional neural network representations for small mass spectrometry data classification. Nature Communications 11 (2020).</a> 
 
 
 
