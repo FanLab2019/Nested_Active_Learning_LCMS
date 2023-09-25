@@ -3,9 +3,12 @@
 Targeted mass spectrometry holds promise for precise protein and protein-representative peptide identification and quantification, enhancing disease diagnosis. However, its clinical application is hindered by complex data analysis and expert review requirements. We hypothesized that machine learning models can automate data analysis to accelerate clinical application of mass spectrometry.  Our approach involves a machine learning-driven pipeline that extracts statistical and morphological features from a mass spectrometry target region and feeds these features into tree-based machine learning algorithms to generate and assess predictive models. Our findings demonstrate machine learning prediction models exhibit superior performance when trained on extracted features versus raw spectra intensity data and that random forest models exhibit robust classification performance in both internal and external validation datasets. These models remain effective across varying training data set sizes and positive sample rates and are enhanced by a nested active learning approach. This approach could thus revolutionize clinical mass spectrometry applications.
 
 
-**Data description**
+**Brief Description**
 
-The raw Mass Spec are converted into mzXML format using the 64-bit MSConvert tool (version 3.0), part of the ProteoWizard suite. Both total ion chromatography (TIC) and transitional intensities were selected and extracted by Python package "pymzml" into a csv file format.
+Here we describe an automated Python software pipeline that reformats LC-MS/MS raw data files into a format suitable for software analysis, extracts specific precursor (MS1) and transition (MS2)  ion features, generates small but balanced training sets, creates predictive models that can be updated with subsequent data, and generates reports that indicate the  biomarker status of specific samples. The performance of this pipeline was analyzed using MS data derived from serum samples from four cohorts of individuals evaluated for tuberculosis by standard clinical tests and by MS detection of a biomarker peptide derived from the Mycobacterium tuberculosis virulence factor Culture Filtrate Protein 10 (CFP10). Results of this study indicate that RF forest models had the best overall classification performance and were not affected by training set size variations, that models were more influenced by morphological than statistical data features, and that models built with automatically rebalanced subsets of unbalanced datasets had similar classification performance to those built with balance data and outperformed those generated with randomly selected data.
+
+[march_fig1.pdf](https://github.com/FanLab2019/Nested_Active_Learning_LCMS/files/12716554/march_fig1.pdf)
+
 
 **Main Reference**
 
