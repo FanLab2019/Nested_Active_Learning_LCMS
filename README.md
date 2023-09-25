@@ -6,7 +6,7 @@ Targeted mass spectrometry holds promise for precise protein and protein-represe
 **Brief Description**
 
 Here we describe an automated Python software pipeline that reformats LC-MS/MS raw data files into a format suitable for software analysis, extracts specific precursor (MS1) and transition (MS2)  ion features, generates small but balanced training sets, creates predictive models that can be updated with subsequent data, and generates reports that indicate the  biomarker status of specific samples. The performance of this pipeline was analyzed using MS data derived from serum samples from four cohorts of individuals evaluated for tuberculosis by standard clinical tests and by MS detection of a biomarker peptide derived from the Mycobacterium tuberculosis virulence factor Culture Filtrate Protein 10 (CFP10). Results of this study indicate that RF forest models had the best overall classification performance and were not affected by training set size variations, that models were more influenced by morphological than statistical data features, and that models built with automatically rebalanced subsets of unbalanced datasets had similar classification performance to those built with balance data and outperformed those generated with randomly selected data.
-![march_fig1](https://github.com/FanLab2019/Nested_Active_Learning_LCMS/assets/69257301/9d78b6ab-efbb-463e-9f57-15f0eb38fec7)
+![march_fig1](https://github.com/FanLab2019/Nested_Active_Learning_LCMS/assets/69257301/b3b69b74-3efd-4fe9-a616-8366b2ee9813)
 
 **Main Reference**
 
